@@ -5,6 +5,8 @@ import * as serviceWorker from './serviceWorker';
 import App from './components/App';
 import ToDoList from './components/ToDoList';
 import Time from './components/Time'
+import DetailedTime from './components/Time';
+import CatContacts from './components/CatContacts';
 
 
 // If you want your app to work offline and load faster, you can change
@@ -59,10 +61,13 @@ ReactDOM.render(
 
 ReactDOM.render(<App/>, document.getElementById("root4"))
 
-
 ReactDOM.render(<ToDoList/>, document.getElementById("root5"))
 
 ReactDOM.render(<Time/>, document.getElementById("root6"))
+
+ReactDOM.render(<DetailedTime/>, document.getElementById("root7"))
+
+ReactDOM.render(<CatContacts/>, document.getElementById("root8"))
 
 
 
