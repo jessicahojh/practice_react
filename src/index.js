@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import App from './components/App';
+import ToDoList from './components/ToDoList';
 
 
 // If you want your app to work offline and load faster, you can change
@@ -19,10 +21,10 @@ ReactDOM.render(
                 document.getElementById("root1")
 );
 
-// old way
-
+/* old way
 var myNewP = document.createElement("p")
 myNewP.innerHTML = "This is a paragraph."
+*/
 
 
 // Example 2
@@ -53,4 +55,15 @@ ReactDOM.render(
   <MyApp />,
   document.getElementById("root3")
 )
+
+ReactDOM.render(<App/>, document.getElementById("root4"))
+
+
+ReactDOM.render(<ToDoList/>, document.getElementById("root5"))
+
+
+
+
+
+
 
