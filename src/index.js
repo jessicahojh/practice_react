@@ -4,6 +4,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './components/App';
 import ToDoList from './components/ToDoList';
+import Time from './components/Time'
 
 
 // If you want your app to work offline and load faster, you can change
@@ -60,6 +61,8 @@ ReactDOM.render(<App/>, document.getElementById("root4"))
 
 
 ReactDOM.render(<ToDoList/>, document.getElementById("root5"))
+
+ReactDOM.render(<Time/>, document.getElementById("root6"))
 
 
 
