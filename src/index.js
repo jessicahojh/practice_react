@@ -8,6 +8,7 @@ import Time from './components/Time'
 import DetailedTime from './components/Time';
 import CatContacts from './components/CatContacts';
 import DisplayJokes from './components/DisplayJokes'
+import App2 from './components/Function2class_based_components';
 
 
 // If you want your app to work offline and load faster, you can change
@@ -72,7 +73,7 @@ ReactDOM.render(<CatContacts/>, document.getElementById("root8"))
 
 ReactDOM.render(<DisplayJokes/>, document.getElementById("root9"))
 
-
+ReactDOM.render(<App2 />, document.getElementById("root10"))
 
 
 
