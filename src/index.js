@@ -11,7 +11,8 @@ import DisplayJokes from './components/DisplayJokes'
 import App2 from './components/Function2class_based_components';
 import Intro2State from './components/Intro2State';
 import {StatePractice2} from './components/Intro2State';
-import ClickMe from './components/HandlingEvents'
+import ClickMe from './components/HandlingEvents';
+import Counter from './components/CountChangeState';
 
 
 // If you want your app to work offline and load faster, you can change
@@ -83,5 +84,7 @@ ReactDOM.render(<Intro2State/>, document.getElementById("root11"))
 ReactDOM.render(<StatePractice2/>, document.getElementById("root12"))
 
 ReactDOM.render(<ClickMe/>, document.getElementById("root13"))
+
+ReactDOM.render(<Counter/>, document.getElementById("root14"))
 
 
