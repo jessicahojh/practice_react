@@ -16,7 +16,7 @@ import Counter from './components/CountChangeState';
 import FakeLoading from './components/FakeLoading';
 import UnreadMessages from './components/UnreadMessages';
 import LogInOut from './components/LogInOut';
-
+import StarWarsAPI from './components/StarWarsAPI';
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
@@ -96,3 +96,4 @@ ReactDOM.render(<UnreadMessages/>, document.getElementById("root16"))
 
 ReactDOM.render(<LogInOut/>, document.getElementById("root17"))
 
+ReactDOM.render(<StarWarsAPI/>, document.getElementById("root18"))
