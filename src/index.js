@@ -13,6 +13,7 @@ import Intro2State from './components/Intro2State';
 import {StatePractice2} from './components/Intro2State';
 import ClickMe from './components/HandlingEvents';
 import Counter from './components/CountChangeState';
+import FakeLoading from './components/FakeLoading';
 
 
 // If you want your app to work offline and load faster, you can change
@@ -87,4 +88,5 @@ ReactDOM.render(<ClickMe/>, document.getElementById("root13"))
 
 ReactDOM.render(<Counter/>, document.getElementById("root14"))
 
+ReactDOM.render(<FakeLoading/>, document.getElementById("root15"))
 
