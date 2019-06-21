@@ -17,6 +17,10 @@ import FakeLoading from './components/FakeLoading';
 import UnreadMessages from './components/UnreadMessages';
 import LogInOut from './components/LogInOut';
 import StarWarsAPI from './components/StarWarsAPI';
+import FirstLastNameForm from './components/FirstLastNameForm';
+import ReactForms from './components/ReactForms';
+import ReactForms2 from './components/ReactForms2';
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
@@ -97,3 +101,12 @@ ReactDOM.render(<UnreadMessages/>, document.getElementById("root16"))
 ReactDOM.render(<LogInOut/>, document.getElementById("root17"))
 
 ReactDOM.render(<StarWarsAPI/>, document.getElementById("root18"))
+
+ReactDOM.render(<FirstLastNameForm/>, document.getElementById("root19"))
+
+ReactDOM.render(<ReactForms/>, document.getElementById("root20"))
+
+ReactDOM.render(<ReactForms2/>, document.getElementById("root21"))
+
+
+
