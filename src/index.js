@@ -20,6 +20,8 @@ import StarWarsAPI from './components/StarWarsAPI';
 import FirstLastNameForm from './components/FirstLastNameForm';
 import ReactForms from './components/ReactForms';
 import ReactForms2 from './components/ReactForms2';
+import MemeHeader from "./components/MemeHeader"
+import MemeGenerator from "./components/MemeGenerator"
 
 
 // If you want your app to work offline and load faster, you can change
@@ -106,7 +108,9 @@ ReactDOM.render(<FirstLastNameForm/>, document.getElementById("root19"))
 
 ReactDOM.render(<ReactForms/>, document.getElementById("root20"))
 
-ReactDOM.render(<ReactForms2/>, document.getElementById("root21"))
+ReactDOM.render(<MemeHeader/>, document.getElementById("root21"))
+
+ReactDOM.render(<MemeGenerator/>, document.getElementById("root22"))
 
 
 
